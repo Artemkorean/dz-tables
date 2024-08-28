@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 3px;
+  }
+  
+  th {
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+  }
+  
+  td {
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+  }
+  .periodOfTime{
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+  }
+  .aspect{
+    background-color: lightblue;
+  }
+  .simple{
+    background-color: lightgreen;
+  }
+  .progressive{
+    background-color: lightcoral;
+  }
+  .perfect{
+    background-color: lightyellow;
+  }
+  .perfect_progressive{
+    background-color: #f7e364;
+  }
